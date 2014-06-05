@@ -21,9 +21,9 @@ sequence. N must be a nonnegative integer.
 Required Libraries
 ==================
 
-The gmpy library is used. On Ubuntu/Debian, you can install it with:
+The gmpy2 library is used. On Ubuntu/Debian, you can install it with:
 
-	sudo apt-get install python-gmpy
+	sudo apt-get install python3-gmpy2
 
 
 Notes on Performance
