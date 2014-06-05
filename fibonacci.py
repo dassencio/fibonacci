@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 
 import sys
 import os
-from gmpy import mpz
+from gmpy2 import mpz
 
 
 def mult_2x2(A,B):
@@ -62,7 +62,7 @@ def main():
 		sys.exit(1)
 
 	try:
-		print fibonacci(int(sys.argv[1]))
+		print(fibonacci(mpz(sys.argv[1])))
 	except:
 		sys.stderr.write("error: invalid input integer (must be nonnegative)\n")
 		sys.exit(1)
