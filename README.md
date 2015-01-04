@@ -1,7 +1,7 @@
 Description
 ===========
 
-fibonacci.py is a small python script which computes the n-th element of the
+fibonacci is a small python script which computes the n-th element of the
 Fibonacci sequence with arbitrary precision.
 
 
@@ -14,7 +14,7 @@ All code from this project is licensed under the GPLv3. See 'LICENSE' for more.
 Instructions
 ============
 
-On Linux, just run './fibonacci.py N' to get the N-th element of the Fibonacci
+On Linux, just run './fibonacci N' to get the N-th element of the Fibonacci
 sequence. N must be a nonnegative integer.
 
 
