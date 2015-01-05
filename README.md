@@ -38,4 +38,4 @@ magnitude).
 Contributors & Contact Information
 ==================================
 
-Diego Assencio / contact[at]assencio[dot]com
+Diego Assencio / diego@assencio.com
