@@ -78,6 +78,7 @@ def fibonacci(n):
 
 	return pow_2x2(M,n)[2]
 
+
 def main():
 	if len(sys.argv) < 2:
 		sys.stderr.write("usage: %s INTEGER\n" % os.path.basename(__file__))
