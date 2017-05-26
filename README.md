@@ -11,8 +11,9 @@ described [here](https://diego.assencio.com/?index=c772250d88e35665d3a793882a7b7
 License
 =======
 
-All code from this project is licensed under the GPLv3. See the `LICENSE` file
-for more information.
+All code from this project is licensed under the GPLv3. See the
+[`LICENSE`](https://github.com/dassencio/fibonacci/tree/master/LICENSE)
+file for more information.
 
 
 Required modules
