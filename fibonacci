@@ -2,7 +2,7 @@
 
 import sys
 import os
-from gmpy2 import mpz
+import gmpy2
 
 ################################################################################
 
@@ -56,8 +56,8 @@ def fibonacci(n):
 	if n < 0:
 		raise ValueError
 
-	M = (mpz(1), mpz(1),
-	     mpz(1), mpz(0))
+	M = (gmpy2.mpz(1), gmpy2.mpz(1),
+	     gmpy2.mpz(1), gmpy2.mpz(0))
 
 	return pow_2x2(M,n)[2]
 
@@ -69,7 +69,7 @@ def main():
 		sys.exit(1)
 
 	try:
-		print(fibonacci(mpz(sys.argv[1])))
+		print(fibonacci(gmpy2.mpz(sys.argv[1])))
 	except:
 		sys.stderr.write("error: invalid input integer (must be nonnegative)\n")
 		sys.exit(1)
