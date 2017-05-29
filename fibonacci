@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import sys
-import os
 import gmpy2
+import os
+import sys
 
 
 def mult_2x2(A,B):
