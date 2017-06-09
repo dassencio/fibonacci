@@ -2,7 +2,7 @@
 
 function assert_equal
 {
-	[ "$1" = "$2" ] || exit 1
+    [ "$1" = "$2" ] || exit 1
 }
 
 assert_equal $(./fibonacci 0) 0
@@ -11,14 +11,13 @@ echo "Passed test: F_0 = 0"
 assert_equal $(./fibonacci 1) 1
 echo "Passed test: F_1 = 1"
 
-
 for n in $(seq 2 100)
 do
-	a=$(./fibonacci $n)          # F_{n}
-	b=$(./fibonacci $((n-1)))    # F_{n-1}
-	c=$(./fibonacci $((n-2)))    # F_{n-2}
+    a=$(./fibonacci $n)          # F_{n}
+    b=$(./fibonacci $((n-1)))    # F_{n-1}
+    c=$(./fibonacci $((n-2)))    # F_{n-2}
 
-	assert_equal $a $(echo $b + $c | bc)
+    assert_equal $a $(echo $b + $c | bc)
 
-	echo "Passed test: F_$n = F_$((n-1)) + F_$((n-2))"
+    echo "Passed test: F_$n = F_$((n-1)) + F_$((n-2))"
 done
