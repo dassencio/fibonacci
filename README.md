@@ -1,4 +1,5 @@
-[![Build Status](https://api.travis-ci.com/dassencio/fibonacci.svg?branch=master)](https://travis-ci.com/dassencio/fibonacci)
+![Functional tests](https://github.com/dassencio/fibonacci/workflows/Functional%20tests/badge.svg)
+![Static code analysis](https://github.com/dassencio/fibonacci/workflows/Static%20code%20analysis/badge.svg)
 
 # Description
 
@@ -14,10 +15,14 @@ file for more information.
 
 # Required modules
 
-The `gmpy2` module is used. On Ubuntu/Debian, you can install it with the
-following command:
+The `gmpy2` module is used. You can install it with the following command:
 
-    sudo apt-get install python3-gmpy2
+    pip3 install gmpy2
+
+On Ubuntu/Debian, you may need to install additional system packages before you
+can install `gmpy2`:
+
+    sudo apt install libmpfr-dev libmpc-dev
 
 # Usage instructions
 
